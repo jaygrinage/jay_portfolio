@@ -32,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/jaygrinage/jay_portfolio.git",
+  "author": "jaygrinage <jonahgrinage@gmail.com>",
+  "license": "MIT"
 }
