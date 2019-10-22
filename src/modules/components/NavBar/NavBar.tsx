@@ -7,7 +7,11 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div className={styles.navBar}>
-        navbar
+        <ul>
+          <li>About Me</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
       </div>
     );
   }
