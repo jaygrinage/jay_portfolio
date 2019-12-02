@@ -9,7 +9,7 @@ class LandingPage extends Component<LandingPageProps> {
   render() {
     return (
       <MainLayout>
-        <LandingPageLayout/>
+        <LandingPageLayout />
       </MainLayout>
     );
   }

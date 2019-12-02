@@ -1,19 +1,17 @@
-// this comment tells babel to convert jsx to calls to a function called jsx instead of React.createElement
-/** @jsx jsx */
 
 import React from "react";
 
 import styles from './Layout.module.scss';
 
-import { css, jsx } from '@emotion/core';
+import { CirclePhoto } from 'modules/components';
 
 export default class LandingPageLayout extends React.Component {
 
   render() {
     return (
-     <div>
-       Landing
-     </div>
+     <main className={styles.layout}>
+        <CirclePhoto url="https://vignette.wikia.nocookie.net/gameofthrones/images/d/d0/JonSnow8x06.PNG/revision/latest?cb=20190714094440" />
+     </main>
     );
   }
 }

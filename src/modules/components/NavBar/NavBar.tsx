@@ -2,9 +2,7 @@
 import React from "react";
 import styles from './NavBar.module.scss';
 
-export default class NavBar extends React.Component {
-
-  render() {
+const NavBar = () => {
     return (
       <div className={styles.navBar}>
         <ul>
@@ -14,5 +12,7 @@ export default class NavBar extends React.Component {
         </ul>
       </div>
     );
-  }
 }
+
+
+export default NavBar;

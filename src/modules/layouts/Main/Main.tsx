@@ -7,6 +7,8 @@ interface MainLayoutProps {
 
 }
 
+// style = {{ display: "grid", gridTemplateColumns: "repeat(1, 1fr)" }}
+
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     return (
         <div>
