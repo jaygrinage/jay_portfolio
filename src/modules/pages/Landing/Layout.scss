@@ -21,3 +21,11 @@
 	50% { background-position: 0 100%; }
 	100% { background-position: 0 0; }
 }
+
+.navigation {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 70px;
+}
