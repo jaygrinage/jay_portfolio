@@ -2,7 +2,6 @@
 .link {
 	outline: none;
 	text-decoration: none;
-	position: relative;
 	font-size: 8em;
 	line-height: 1;
 	color: #9e9ba4;
@@ -10,14 +9,15 @@
 }
 
 
-.color-4 { background: #333; }
+// .color-4 { background: #333; }
 .grid__item {
 	background: #DDD;
 	text-align: center;
-	display: flex;
+	position: relative;
+	overflow: hidden;
 	align-items: center;
 	justify-content: center;
-	-webkit-transform: translate3d(0,0,0); /* Solves Safari bug because of SVG clipping mask */
+	transform: translate3d(0,0,0); /* Solves Safari bug because of SVG clipping mask */
 }
 
 

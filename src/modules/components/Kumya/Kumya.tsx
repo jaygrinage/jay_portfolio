@@ -2,10 +2,17 @@
 import React from "react";
 import './Kumya.scss';
 
-const Kumya = ({ text, link }) => {
+interface Props {
+  text: string;
+  link: string;
+  hoverText?: string;
+}
+
+const Kumya = (props: Props) => {
+  const { link, hoverText, text } = props;
   return (
-    <div className="grid__item color-4">
-      <a className="link link--kumya" href={link}><span data-letters={text}>{text}</span></a>
+    <div className="grid__item">
+      <a className="link link--kumya" href={link}><span data-letters={hoverText ? hoverText : text}>{text}</span></a>
     </div>
     );
 }
