@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { NavBar } from 'modules/components';
+// import { NavBar } from 'modules/components';
 
 interface MainLayoutProps {
     children: React.ReactNode;
@@ -12,7 +12,7 @@ interface MainLayoutProps {
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     return (
         <div>
-            <NavBar />
+            {/* <NavBar /> */}
             {children}
         </div>
     )
