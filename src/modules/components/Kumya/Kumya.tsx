@@ -12,9 +12,16 @@ const Kumya = (props: Props) => {
   const { link, hoverText, text } = props;
   return (
     <div className="grid__item">
-      <a className="link link--kumya" href={link}><span data-letters={hoverText ? hoverText : text}>{text}</span></a>
+      <a
+        className="link link--kumya"
+        target="_blank"
+        rel="noopener noreferrer"
+        href={link}
+      >
+        <span data-letters={hoverText ? hoverText : text}>{text}</span>
+      </a>
     </div>
-    );
+  );
 }
 
 
