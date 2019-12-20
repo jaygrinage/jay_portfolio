@@ -1,4 +1,5 @@
 
+
 .circlePhoto {
     height: 150px;
     width: 150px;
@@ -16,11 +17,12 @@
         background-repeat: no-repeat;
         filter: grayscale(100%);
         transition: all 1s;
-    }
 
-    .img:hover {
+        &:hover {
         filter: grayscale(0%);
     }
+    }
+
 }
 
 @keyframes pulse {

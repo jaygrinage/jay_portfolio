@@ -3,7 +3,7 @@ import React from "react";
 
 import './Layout.scss';
 
-import { CirclePhoto, Kumya } from 'modules/components';
+import { CirclePhoto, Kumya, MovingText } from 'modules/components';
 import { ReactComponent as FacebookLogo } from 'assets/svg/facebook.svg';
 import { ReactComponent as InstagramLogo } from 'assets/svg/instagram.svg';
 import { ReactComponent as TwitterLogo } from 'assets/svg/twitter.svg';
@@ -22,6 +22,9 @@ export default class LandingPageLayout extends React.Component {
           <Kumya text="Projects" hoverText="Check It" link="https://github.com/jaygrinage" />
           <Kumya text="Contact Me" hoverText="Call Me" link="#" />
         </nav>
+        <div>
+          <MovingText />
+        </div>
         <ul className="social">
           <li>
             <a
