@@ -4,14 +4,13 @@ $blue: #98b5cc;
 $yellow: #ffcc00;
 $outline: rgba(#fff, .4);
 $shadow: rgba($yellow, .5);
-// html,
-// body {
-// 	background: linear-gradient(45deg, rgba(45,45,45,1) 9%,rgba(0,0,0,1) 100%);
-// 	width: 100%;
-// 	height: 100%;
-// }
+$glow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0 $outline, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
 
-h1 {
+.wrapper {
+	position: relative;
+}
+
+.flicker {
 	font-family: 'CoreCircus', sans-serif;
 	font-size: 8vw;
 	text-align: center;
@@ -23,7 +22,8 @@ h1 {
 	position: absolute;
 	color: $h1;
 	letter-spacing: -.5rem;
-	
+	color: $yellow;
+
 	&:before {
 		content: attr(data-heading);
 		position: absolute;
@@ -36,17 +36,31 @@ h1 {
 		text-align: left;
 		animation: flicker 3s linear infinite;
   }
-  
 }
 
-span {
-	text-shadow: 2px 2px 0 $yellow, 2px -2px 0 $yellow, -2px 2px 0 $yellow, -2px -2px 0 $yellow, 2px 0px 0 $yellow, 0px 2px 0 $yellow, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;;
+
+
+.noFlicker {
+	font-family: 'CoreCircus', sans-serif;
+	font-size: 8vw;
+	text-align: center;
+	line-height: 1;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 10%);
+	position: absolute;
+	color: $h1;
+	letter-spacing: -.5rem;
+	color: $yellow;
+	text-shadow: $glow;
 }
+
 
 @keyframes flicker {
 	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
 		opacity: .99;
-		text-shadow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0 $outline, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
+		text-shadow: $glow;
 	}
 	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
 		opacity: 0.4;

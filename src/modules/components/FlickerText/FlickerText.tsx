@@ -1,12 +1,12 @@
 import React from "react";
-import "./FlickerText.module.scss";
+import styles from "./FlickerText.module.scss";
 
-const FlickerText = ({ lightText, dimText }) => {
+const FlickerText = ({ text, flicker }: any)=> {
 
     return (
-      <div className="wrapper">
-        <h1 data-heading={lightText}>
-          {lightText} <span>{dimText}</span>
+      <div className={styles.wrapper}>
+        <h1 className={flicker ? styles.flicker : styles.noFlicker } data-heading={text}>
+          {text}
         </h1>
       </div>
     );

@@ -17,10 +17,10 @@ export default class LandingPageLayout extends React.Component {
         {/* <FlickerText lightText='Jonah' dimText='Grinage' /> */}
         <section className="banner">
           Jonah Grinage
-          <FlickerText lightText='Front End Dev' dimText='' />
+          <FlickerText text="Jonah Grinage" />
         </section>
         <section className="about-me">
-          
+
         </section>
       </main>
     );
