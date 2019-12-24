@@ -4,12 +4,12 @@ $blue: #98b5cc;
 $yellow: #ffcc00;
 $outline: rgba(#fff, .4);
 $shadow: rgba($yellow, .5);
-html,
-body {
-	background: linear-gradient(45deg, rgba(45,45,45,1) 9%,rgba(0,0,0,1) 100%);
-	width: 100%;
-	height: 100%;
-}
+// html,
+// body {
+// 	background: linear-gradient(45deg, rgba(45,45,45,1) 9%,rgba(0,0,0,1) 100%);
+// 	width: 100%;
+// 	height: 100%;
+// }
 
 h1 {
 	font-family: 'CoreCircus', sans-serif;
@@ -37,6 +37,10 @@ h1 {
 		animation: flicker 3s linear infinite;
   }
   
+}
+
+span {
+	text-shadow: 2px 2px 0 $yellow, 2px -2px 0 $yellow, -2px 2px 0 $yellow, -2px -2px 0 $yellow, 2px 0px 0 $yellow, 0px 2px 0 $yellow, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;;
 }
 
 @keyframes flicker {
