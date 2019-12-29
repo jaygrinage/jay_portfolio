@@ -7,11 +7,11 @@ $shadow: rgba($yellow, .5);
 $glow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0 $outline, 0 -2px 8px, 0 0 2px, 0 0 5px #ff7e00, 0 0 15px #ff4444, 0 0 2px #ff7e00, 0 2px 3px #000;
 
 .wrapper {
-	position: relative;
+	position: absolute;
 }
 
 .flicker {
-	font-family: 'CoreCircus', sans-serif;
+	
 	font-size: 8vw;
 	text-align: center;
 	line-height: 1;
@@ -21,8 +21,8 @@ $glow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0
 	transform: translate(-50%, 10%);
 	position: absolute;
 	color: $h1;
-	letter-spacing: -.5rem;
-	color: $yellow;
+	letter-spacing: .5rem;
+	color: $h1;
 
 	&:before {
 		content: attr(data-heading);
@@ -33,7 +33,7 @@ $glow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0
 		z-index: 5;
 		text-shadow: none;
 		left: 0%;
-		text-align: left;
+		text-align: center;
 		animation: flicker 3s linear infinite;
   }
 }
@@ -41,7 +41,7 @@ $glow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0
 
 
 .noFlicker {
-	font-family: 'CoreCircus', sans-serif;
+	// font-family: 'CoreCircus', sans-serif;
 	font-size: 8vw;
 	text-align: center;
 	line-height: 1;
@@ -51,7 +51,7 @@ $glow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0
 	transform: translate(-50%, 10%);
 	position: absolute;
 	color: $h1;
-	letter-spacing: -.5rem;
+	letter-spacing: .5rem;
 	color: $yellow;
 	text-shadow: $glow;
 }
