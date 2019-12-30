@@ -14,9 +14,7 @@
     "react": "^16.10.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.10.2",
-    "react-gsap": "^1.2.0",
     "react-scripts": "3.2.0",
-    "react-scroll-parallax": "^2.2.0",
     "react-tilt": "^0.1.4",
     "typescript": "3.6.4"
   },

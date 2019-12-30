@@ -4654,11 +4654,6 @@ growly@^1.3.0:
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
-gsap@^2.0.2:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-2.1.3.tgz#c63ee3a50f0b7dc3b46ed0845bb0f09049feb944"
-  integrity sha512-8RFASCqi2FOCBuv7X4o7M6bLdy+1hbR0azg+MG7zz+EVsI+OmJblYsTk0GEepQd2Jg/ItMPiVTibF7r3EVxjZQ==
-
 gzip-size@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-5.1.1.tgz#cb9bee692f87c0612b232840a873904e4c135274"
@@ -8261,7 +8256,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.9, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.9, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -8496,13 +8491,6 @@ react-error-overlay@^6.0.3:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.3.tgz#c378c4b0a21e88b2e159a3e62b2f531fd63bf60d"
   integrity sha512-bOUvMWFQVk5oz8Ded9Xb7WVdEi3QGLC8tH7HmYP0Fdp4Bn3qw0tRFmr5TW6mvahzvmrK4a6bqWGfCevBflP+Xw==
 
-react-gsap@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/react-gsap/-/react-gsap-1.2.0.tgz#38e89b6802c5521fd27677ce27ba6ac119f7348e"
-  integrity sha512-hopmcLuMFcUd8MHVA7gK5VHUeuXnqOJjTADPsEjIGVG1pCP05Uagt1TQri2pG67QOZkEWHwQGT6vwlzXPUbLZQ==
-  dependencies:
-    gsap "^2.0.2"
-
 react-is@^16.8.1, react-is@^16.8.4:
   version "16.10.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.10.1.tgz#0612786bf19df406502d935494f0450b40b8294f"
@@ -8568,13 +8556,6 @@ react-scripts@3.2.0:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.0.7"
-
-react-scroll-parallax@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-2.2.0.tgz#604eb9d2d9c4343047b94fdc063d537269ed9c3f"
-  integrity sha512-WXiLEwSwYU+lTS2G1mlVYVA+bKwhFpgMvqWMblyD/wjNRrxO1IAxpF2Y1dnaf6jz7wX4CvQHHuSQJfMQnxW0xQ==
-  dependencies:
-    prop-types "^15.5.10"
 
 react-tilt@^0.1.4:
   version "0.1.4"
