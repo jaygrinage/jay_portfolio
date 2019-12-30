@@ -22,7 +22,7 @@ $glow: -1px -1px 0 $outline, 1px -1px 0 $outline, -1px 1px 0 $outline, 1px 1px 0
 	position: absolute;
 	color: $h1;
 	letter-spacing: .5rem;
-	color: $h1;
+	
 
 	&:before {
 		content: attr(data-heading);
