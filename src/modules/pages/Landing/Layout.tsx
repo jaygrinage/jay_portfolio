@@ -16,6 +16,11 @@ import naruto1 from 'modules/anime/naruto-1.png';
  
 
 export default () => {
+
+    const clicky = () => {
+      console.log("clicking")
+    }
+
     return (
       <Tilt
         className="Tilt"
