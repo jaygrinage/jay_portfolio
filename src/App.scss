@@ -1,26 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Syncopate&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i&display=swap');
+
+:root {
+  --color-primary: rgb(253, 203, 64);
+  --color-secondary: rgb(51, 51, 51);
+  // --color-primary:  rgb(51, 51, 51);
+  // --color-secondary: rgb(253, 203, 64);
+  --color-white: #eee;
+  --color-black: #000;
+
+  --text-shadow: .5rem 1rem 2rem rgba(0, 0, 0, 0.541);
+  --box-shadow: 0 1.5rem 4rem rgba(#000, .15);
+
+  --font-size-xsmall: 1.1rem;
+  --font-size-small: 1.4rem;
+  --font-size-default: 2rem;
+  --font-size-large: 5rem;
+  --font-size-xlarge: 10rem;
+
+  --line-height-med: 1.7;
+  --line-height-small: 1.5;
+}
+
 
 .App {
-  text-align: center;
-  font-family: 'Syncopate', sans-serif;
-  // padding: 1rem;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
-}
