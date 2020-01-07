@@ -19,33 +19,6 @@ const greetingsArray = ['Hello', 'Ndewo', 'Bonjour', 'Hola', 'Nǐ hǎo', 'Ciao',
 
 export default () => {
 
-<<<<<<< HEAD
-    const clicky = () => {
-      console.log("clicking")
-    }
-
-    return (
-      <Tilt
-        className="Tilt"
-        options={{ max: 5 }}
-        // style={{ height: 250, width: 250 }}
-      >
-        <main className="layout">
-          {/* <FlickerText lightText='Jonah' dimText='Grinage' /> */}
-          <section className="intro">
-            <FlickerText text="Jonah Grinage" />
-            <FlickerText className="titleSub" text="Full-Stack Developer" />
-          </section>
-          <section className="about-me">
-            <h1>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Blanditiis sint eius at dicta minus? Iusto, itaque recusandae
-              perferendis vero atque amet porro in culpa incidunt ducimus. Non
-              tenetur velit nihil?
-            </h1>
-          </section>
-          <section className="projects">
-=======
   const [currentGreetingIndex, setCurrentGreetingIndex] = useState(0);
   const [reversed, setReversed] = useState(false);
 
@@ -108,7 +81,6 @@ export default () => {
         </section>
         <section className="projects">
           <div className='projects__list'>
->>>>>>> 152f8f8ff4f5633b6632cd41e751529bad731587
             <Card
               header='project 1'
               caption='project 1'
