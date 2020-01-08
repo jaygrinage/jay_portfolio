@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/jay_portfolio/static/css/main.1644c54e.chunk.css",
-    "main.js": "/jay_portfolio/static/js/main.dd2564e9.chunk.js",
-    "main.js.map": "/jay_portfolio/static/js/main.dd2564e9.chunk.js.map",
+    "main.css": "/jay_portfolio/static/css/main.a50d6dc7.chunk.css",
+    "main.js": "/jay_portfolio/static/js/main.641fae2c.chunk.js",
+    "main.js.map": "/jay_portfolio/static/js/main.641fae2c.chunk.js.map",
     "runtime-main.js": "/jay_portfolio/static/js/runtime-main.67326c39.js",
     "runtime-main.js.map": "/jay_portfolio/static/js/runtime-main.67326c39.js.map",
-    "static/js/2.b129b0f7.chunk.js": "/jay_portfolio/static/js/2.b129b0f7.chunk.js",
-    "static/js/2.b129b0f7.chunk.js.map": "/jay_portfolio/static/js/2.b129b0f7.chunk.js.map",
+    "static/js/2.671372e2.chunk.js": "/jay_portfolio/static/js/2.671372e2.chunk.js",
+    "static/js/2.671372e2.chunk.js.map": "/jay_portfolio/static/js/2.671372e2.chunk.js.map",
     "index.html": "/jay_portfolio/index.html",
-    "precache-manifest.4118ba37e5e533af171b3e9123bc529d.js": "/jay_portfolio/precache-manifest.4118ba37e5e533af171b3e9123bc529d.js",
+    "precache-manifest.67dc14088b0ec314a213cd101eae671d.js": "/jay_portfolio/precache-manifest.67dc14088b0ec314a213cd101eae671d.js",
     "service-worker.js": "/jay_portfolio/service-worker.js",
-    "static/css/main.1644c54e.chunk.css.map": "/jay_portfolio/static/css/main.1644c54e.chunk.css.map",
-    "static/media/facebook.a1c36067.svg": "/jay_portfolio/static/media/facebook.a1c36067.svg",
+    "static/css/main.a50d6dc7.chunk.css.map": "/jay_portfolio/static/css/main.a50d6dc7.chunk.css.map",
+    "static/media/droplet.15e53f2e.svg": "/jay_portfolio/static/media/droplet.15e53f2e.svg",
+    "static/media/github.79533599.svg": "/jay_portfolio/static/media/github.79533599.svg",
     "static/media/google.37a94729.svg": "/jay_portfolio/static/media/google.37a94729.svg",
-    "static/media/instagram.f24a3859.svg": "/jay_portfolio/static/media/instagram.f24a3859.svg",
-    "static/media/twitter.ea0d4938.svg": "/jay_portfolio/static/media/twitter.ea0d4938.svg"
+    "static/media/linkedin2.71607afb.svg": "/jay_portfolio/static/media/linkedin2.71607afb.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.67326c39.js",
-    "static/js/2.b129b0f7.chunk.js",
-    "static/css/main.1644c54e.chunk.css",
-    "static/js/main.dd2564e9.chunk.js"
+    "static/js/2.671372e2.chunk.js",
+    "static/css/main.a50d6dc7.chunk.css",
+    "static/js/main.641fae2c.chunk.js"
   ]
 }
