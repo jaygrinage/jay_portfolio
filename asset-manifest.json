@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jay_portfolio/static/css/main.a50d6dc7.chunk.css",
+    "main.css": "/jay_portfolio/static/css/main.17dcd6e7.chunk.css",
     "main.js": "/jay_portfolio/static/js/main.641fae2c.chunk.js",
     "main.js.map": "/jay_portfolio/static/js/main.641fae2c.chunk.js.map",
     "runtime-main.js": "/jay_portfolio/static/js/runtime-main.67326c39.js",
@@ -8,9 +8,9 @@
     "static/js/2.671372e2.chunk.js": "/jay_portfolio/static/js/2.671372e2.chunk.js",
     "static/js/2.671372e2.chunk.js.map": "/jay_portfolio/static/js/2.671372e2.chunk.js.map",
     "index.html": "/jay_portfolio/index.html",
-    "precache-manifest.67dc14088b0ec314a213cd101eae671d.js": "/jay_portfolio/precache-manifest.67dc14088b0ec314a213cd101eae671d.js",
+    "precache-manifest.743893077240b56fcbedc2b5fb498fef.js": "/jay_portfolio/precache-manifest.743893077240b56fcbedc2b5fb498fef.js",
     "service-worker.js": "/jay_portfolio/service-worker.js",
-    "static/css/main.a50d6dc7.chunk.css.map": "/jay_portfolio/static/css/main.a50d6dc7.chunk.css.map",
+    "static/css/main.17dcd6e7.chunk.css.map": "/jay_portfolio/static/css/main.17dcd6e7.chunk.css.map",
     "static/media/droplet.15e53f2e.svg": "/jay_portfolio/static/media/droplet.15e53f2e.svg",
     "static/media/github.79533599.svg": "/jay_portfolio/static/media/github.79533599.svg",
     "static/media/google.37a94729.svg": "/jay_portfolio/static/media/google.37a94729.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.67326c39.js",
     "static/js/2.671372e2.chunk.js",
-    "static/css/main.a50d6dc7.chunk.css",
+    "static/css/main.17dcd6e7.chunk.css",
     "static/js/main.641fae2c.chunk.js"
   ]
 }
